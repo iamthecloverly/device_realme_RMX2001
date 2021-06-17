@@ -32,15 +32,15 @@ CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ACORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 
 # PixelPlusUI OFFICIAL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ppui.device_name=Realme-G90T-Series \
-    ro.ppui.version=3.5 \
-    ro.ppui.version_code=Jasper \
+    ro.ppui.version=3.6 \
+    ro.ppui.version_code=Unicorn \
     ro.ppui.is_official=true \
-    ro.ppui.maintainer_name=TheCloverly
+    ro.ppui.maintainer_name=SriBalaji(TheCloverly)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_RMX2001
